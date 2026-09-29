@@ -19,7 +19,7 @@ Open http://localhost:4173. All substantive content, paper links, CV downloads, 
 - `site/assets/Gyuwon_Lee_CV.pdf`: downloadable CV. The published version excludes the telephone number.
 - `site/assets/publications.bib`: citation download; update alongside publication entries.
 - `site/assets/Gyuwon_Lee.vcf`: contact card, using email and website only.
-- `site/assets/gyuwon-lee.jpg`: profile portrait.
+- `site/assets/portrait-gyuwon-lee.jpg`: profile portrait supplied by Gyuwon.
 - `site/sitemap.xml` and footer: update the revision date after content changes.
 
 The current conference highlight is the accepted SfN 2026 poster listed in the September 2026 CV. Add a poster number, session, or poster download only when confirmed. The original cover letter and application materials are not deployed.

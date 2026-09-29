@@ -139,11 +139,15 @@ def social_card():
     draw.line((75, 500, 1125, 500), fill="#dadfd6", width=2)
     draw.text((75, 539), "gwl0711.github.io", fill="#657168",
               font=ImageFont.truetype(str(mono), 19))
-    portrait = Image.open(ASSETS / "gyuwon-lee.jpg").convert("RGB")
+    portrait = Image.open(ASSETS / "portrait-gyuwon-lee.jpg").convert("RGB")
     portrait.thumbnail((250, 320))
     draw.rectangle((830, 105, 1128, 457), fill="#e9ece4")
     image.paste(portrait, (854, 125))
-    image.save(ASSETS / "social-card.png", optimize=True)
+    draw.text((854, 394), "From neural signals", fill="#53634f",
+              font=ImageFont.truetype(str(serif), 17))
+    draw.text((854, 419), "to human connection.", fill="#53634f",
+              font=ImageFont.truetype(str(serif), 17))
+    image.save(ASSETS / "social-card-portrait.png", optimize=True)
 
 
 if __name__ == "__main__":
