@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Lee;Gyuwon;;;
+FN:Gyuwon Lee
+ORG:Konkuk University Medical Center;NICA Lab
+TITLE:Research Assistant
+EMAIL;TYPE=INTERNET,WORK:gwl0711@gmail.com
+URL:https://gwl0711.github.io/
+NOTE:Neural engineering and speech brain-computer interfaces.
+END:VCARD
